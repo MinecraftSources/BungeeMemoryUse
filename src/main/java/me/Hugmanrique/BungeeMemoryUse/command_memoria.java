@@ -20,7 +20,7 @@ public class command_memoria extends Command {
                 Runtime run1 = Runtime.getRuntime();
                 run.sendMessage("§d§l[Info] §cRAM Usada §f/ §eTotal§f / §aLibre§f]  §f" + (run1.totalMemory() - run1.freeMemory()) / 1048576L + " MB §7/ §6" + run1.totalMemory() / 1048576L + " MB §7/§2 " + run1.freeMemory() / 1048576L + " MB");
             } else {
-                run.sendMessage("§c§l[Error] §fNo tienes permisos para hacer eso.");
+                run.sendMessage("§c§l[Error] §fNo tienes Rango suficiente para hacer eso.");
             }
         } else {
             Runtime run2 = Runtime.getRuntime();
